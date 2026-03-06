@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Lab 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1> Dental Care Contact Page</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="https://cdpn.io/pen/debug/vELOBMz?authentication_hash=yPkJjWqVogJk">Home</a></li>
+      <li><a href="https://cdpn.io/pen/debug/VYeLZJB?authentication_hash=LDMmdWYgyvLk">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Send us a message</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input id="name" name="name" type="text" required placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="msg" rows="4" placeholder="Your message here..."></textarea>
+<form action="emailhttps://mail.google.com/mail/u/0/?tab=rm&ogbl#inbo" method="POST">
+
+  <button type="submit">Send</button>
+</form>
+          </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Dental Care</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,157 @@
+:root {
+  --brand: #61c03b; 
+  --ink: #fff; 
+  --bg: #000; 
+}
+
+body {
+  background-image: url('https://cdn.prod.website-files.com/60414b21f1ffcdbb0d5ad688/66101c43825dd89c29430e0d_vMW12iu8apJvAgzXwNvS4OpULMulkw9JklT9eHNMY2NqTPpcH4lwasoXHQKs31VkGPNDL00T9cpFpeHfFID-p1S74HfLWMbU7Np_NIEhX84jGZlF_tJ1w0RPaZXKuk_d4_FdP0O66IkXxnnMWfT2qCA.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Inherit', sans-serif;
+  color: var(--ink); 
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background: var(--brand);
+  padding: 1rem 0;
+  color: var(--ink);
+  text-align: center; /* Centers the text in the header */
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  flex-grow: 1; 
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h1, h2, p, blockquote {
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+/* Two-column layout */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.two-column .left, .two-column .right {
+  flex: 1 1 300px;
+}
+
+/* Table */
+table {
+  width: 80%; 
+  margin: 1rem auto; 
+  border-collapse: collapse;
+  background-color: #2e7d32; 
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(46, 125, 50, 0.5);
+}
+
+thead {
+  background-color: #1b5e20; 
+  color: white;
+}
+
+th, td {
+  border: 1px solid #145214;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+/* Newsletter Form */
+#newsletter form {
+  margin-top: 1rem;
+}
+
+#newsletter label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+}
+
+#newsletter input[type="email"] {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#newsletter button {
+  padding: 0.5rem 1rem;
+  background: var(--brand);
+  color: var(--ink);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#newsletter button:hover {
+  background: #a97f4f;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: var(--ink);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .two-column {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Quiz</title>
+    <style>
+        body { font-family: Arial; margin: 30px; }
+        .answer-btn { margin: 5px 0; padding: 10px; display: block; width: 200px; }
+        #result { margin-top: 15px; font-weight: bold; }
+    </style>
+</head>
+<body>
+<div id="quiz-container">
+    <!-- quiz goes here -->
+
+<h2 id="question">Question will appear here</h2>
+
+<div id="answers"></div>
+
+<p id="result"></p>
+
+<button id="nextBtn">Next Question</button>
+
+<script src="quiz.js"></script>
+
+  </div>
+
+</body>
+</html>

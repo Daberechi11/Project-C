@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cup & Comfort Café</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#info">Menu</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <h1>Cup & Comfort Café</h1>
+      <p>Step into a cozy corner of comfort, creativity, and caffeine.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Cup & Comfort Café brings you hand-roasted blends and a peaceful space to unwind.</p>
+      <p>Whether you're looking to work, catch up with friends, or simply enjoy a quiet moment, our café is your perfect escape.</p>
+    </section>
+
+    <!-- Highlights Section -->
+    <section id="highlights" class="two-column">
+      <div class="left">
+        <h3>What We Offer</h3>
+        <ul>
+          <li>Locally roasted beans</li>
+          <li>Free Wi-Fi & cozy seating</li>
+          <li>Vegan & gluten-free options</li>
+          <li>Community events every weekend</li>
+        </ul>
+      </div>
+      <div class="right">
+        <blockquote>“The best place to start your morning.”</blockquote>
+      </div>
+    </section>
+
+    <!-- Menu/Schedule Section -->
+    <section id="info">
+      <h2>Our Menu</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Size</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Latte</td>
+            <td>12oz</td>
+            <td>$4.50</td>
+          </tr>
+          <tr>
+            <td>Coffee/Tea</td>
+            <td>12oz</td>
+            <td>$5.67</td>
+          </tr>
+          <tr>
+            <td>Cold Brew</td>
+            <td>16oz</td>
+            <td>$4.00</td>
+          </tr>
+          <tr>
+            <td>Plant-based milk lattes</td>
+            <td>14oz</td>
+            <td>$12.30</td>
+          </tr>
+          <tr>
+            <td>Smoothies</td>
+            <td>16oz</td>
+            <td>$10.69</td>
+          </tr>
+          <tr>
+            <td>Avocado Toast</td>
+            <td>Full</td>
+            <td>$6.75</td>
+          </tr>
+          <tr>
+            <td>Croissants/Muffins/Bagels</td>
+            <td>whole</td>
+            <td>$7.59</td>
+          </tr>
+          <tr>
+            <td>Club Sandwich</td>
+            <td>whole</td>
+            <td>$9.56</td>
+          </tr>
+          <tr>
+            <td>Fruit salads</td>
+            <td>10oz</td>
+            <td>$8.45</td>
+          </tr>
+          <tr>
+            <td>Vegan ice creams</td>
+            <td>1 scoop/2 scoops</td>
+            <td>$7.89/$12.59</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get fresh updates, promotions, and more—straight to your inbox.</p>
+      <form>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>D.Barrett © 2025  lab</p>
+  </footer>
+</body>
+</html>

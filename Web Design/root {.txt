@@ -1,0 +1,156 @@
+:root {
+  --brand: #c49a6c; /* coffee tone */
+  --ink: #fff; /* <-- changed to white text */
+  --bg: #000; /* fallback bg, not used much since you use image */
+}
+
+body {
+  background-image: url('https://cdn.prod.website-files.com/60414b21f1ffcdbb0d5ad688/66101c43825dd89c29430e0d_vMW12iu8apJvAgzXwNvS4OpULMulkw9JklT9eHNMY2NqTPpcH4lwasoXHQKs31VkGPNDL00T9cpFpeHfFID-p1S74HfLWMbU7Np_NIEhX84jGZlF_tJ1w0RPaZXKuk_d4_FdP0O66IkXxnnMWfT2qCA.jpeg');
+  background-size: cover; /* <-- ensures bg image covers whole area */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* <-- changed from height:100vh to min-height for footer visibility */
+  margin: 0;
+  font-family: 'Inherit', sans-serif; /* <-- fixed typo: was 'Inhert' */
+  color: var(--ink); /* <-- make all text white */
+  display: flex; /* <-- added for flex layout */
+  flex-direction: column; /* <-- so footer stays at bottom */
+}
+
+/* Header */
+header {
+  background: var(--brand);
+  padding: 1rem 0;
+  color: var(--ink); /* <-- make header text white */
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  margin: 0; /* <-- added margin and padding reset */
+  padding: 0;
+}
+
+.nav a {
+  color: var(--ink); /* <-- white nav links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 2rem auto; /* <-- fixed typo from "magrin" to margin */
+  flex-grow: 1; /* <-- added so main pushes footer down */
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h1, h2, p, blockquote {
+  color: var(--ink); /* <-- white text for all headings, paragraphs, blockquotes */
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+/* Two-column layout */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.two-column .left, .two-column .right {
+  flex: 1 1 300px;
+}
+
+/* Table */
+table {
+  width: 80%; /* <-- changed from 100% to 80% and centered */
+  margin: 1rem auto; /* <-- center table */
+  border-collapse: collapse;
+  background-color: #2e7d32; /* <-- green background */
+  color: white; /* <-- white text */
+  border-radius: 8px; /* <-- added rounded corners */
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(46, 125, 50, 0.5); /* <-- added subtle shadow */
+}
+
+thead {
+  background-color: #1b5e20; /* <-- darker green header */
+  color: white;
+}
+
+th, td {
+  border: 1px solid #145214; /* <-- darker green border */
+  padding: 0.75rem;
+  text-align: left;
+}
+
+/* Newsletter Form */
+#newsletter form {
+  margin-top: 1rem;
+}
+
+#newsletter label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--ink); /* <-- white label */
+}
+
+#newsletter input[type="email"] {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#newsletter button {
+  padding: 0.5rem 1rem;
+  background: var(--brand);
+  color: var(--ink); /* <-- white button text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#newsletter button:hover {
+  background: #a97f4f;
+}
+
+/* Footer */
+footer {
+  text-align: center; /* <-- center text */
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: var(--ink); /* <-- white text */
+  background-color: rgba(0, 0, 0, 0.6); /* <-- semi-transparent black bg for visibility */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .two-column {
+    flex-direction: column;
+  }
+}

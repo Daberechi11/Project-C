@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flavor Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pick Your Flavor!</h1>
+
+    <select id="flavorSelect">
+      <option value="">-- Select a flavor --</option>
+      <option value="chocolate">Chocolate</option>
+      <option value="strawberry">Strawberry</option>
+      <option value="vanilla">Vanilla</option>
+    </select>
+
+    <div id="imageContainer">
+      <img id="flavorImage" src="" alt="Flavor image" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
