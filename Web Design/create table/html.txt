@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Price Table</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background: #f0f8ff;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    th, td {
+        padding: 12px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+
+    /* Header row background */
+    th {
+        background-color: #4a90e2;
+        color: white;
+    }
+
+    /* Hover effect for table rows */
+    tr:hover {
+        background-color: #e6f2ff;
+    }
+
+    /* Responsive font size */
+    @media (max-width: 768px) {
+        table {
+            font-size: 14px;
+        }
+    }
+</style>
+
+</head>
+<body>
+
+<h2>Product Price Table</h2>
+
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>In Stock</th>
+    </tr>
+
+    <tr>
+        <td>Wireless Mouse</td>
+        <td>Ergonomic design, USB connection</td>
+        <td>$19.99</td>
+        <td>Yes</td>
+    </tr>
+
+    <tr>
+        <td>Bluetooth Speaker</td>
+        <td>Portable, 10-hour battery life</td>
+        <td>$29.99</td>
+        <td>No</td>
+    </tr>
+
+    <tr>
+        <td>1TB Portable External Hard Drive USB</td>
+        <td>Ultra-Fast USB 3.0 Connectivity for Effortless Transfers</td>
+        <td>$45.00</td>
+        <td>Yes</td>
+    </tr>
+
+    <tr>
+        <td>USB-C Charger</td>
+        <td>Fast charging adapter, 25W output</td>
+        <td>$15.99</td>
+        <td>Yes</td>
+    </tr>
+
+</table>
+
+</body>
+</html>

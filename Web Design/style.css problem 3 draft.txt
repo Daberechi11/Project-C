@@ -1,0 +1,142 @@
+*** style.css
+:root{
+  --brand: #c49a6c;
+  --ink: #333;
+  --bg: #fffaf3;
+}
+
+Body{
+  background-image: url('https://cdn.prod.website-files.com/60414b21f1ffcdbb0d5ad688/66101c43825dd89c29430e0d_vMW12iu8apJvAgzXwNvS4OpULMulkw9JklT9eHNMY2NqTPpcH4lwasoXHQKs31VkGPNDL00T9cpFpeHfFID-p1S74HfLWMbU7Np_NIEhX84jGZlF_tJ1w0RPaZXKuk_d4_FdP0O66IkXxnnMWfT2qCA.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+font-family: 'Inhert', sans-serif;
+  
+}
+
+header {
+  background: var(--brand);
+  padding: 1rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+ /* Main Content */
+main {
+  max-width: 800px;
+  magrin: 2rem auto;
+  
+}
+ection {
+  margin-bottom: 3rem;
+}
+
+h1, h2 {
+  color: var(--brand);
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+/* Two-column layout */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.two-column .left, .two-column .right {
+  flex: 1 1 300px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+thead {
+  background: var(--brand);
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+/* Newsletter Form */
+#newsletter form {
+  margin-top: 1rem;
+}
+
+#newsletter label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+#newsletter input[type="email"] {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#newsletter button {
+  padding: 0.5rem 1rem;
+  background: var(--brand);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#newsletter button:hover {
+  background: #a97f4f;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .two-column {
+    flex-direction: column;
+  }
+}

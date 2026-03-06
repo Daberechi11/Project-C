@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Weekly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://wrapem.org/wp-content/uploads/2022/04/wellness-weekj-2022.png" alt="Wellness Weekly Logo" class="logo">
+        <h1>Wellness Weekly</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Articles</a>
+        <a href="#">Health Tips</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section id="welcome">
+            <h2>Welcome to Wellness Weekly</h2>
+            <p>Your source for health, wellness, and mindful living. Stay informed, inspired, and motivated to live your healthiest life every week!</p>
+        </section>
+
+        <article>
+            <h2>Boost Your Immunity Naturally</h2>
+            <figure>
+                <img src="https://media.istockphoto.com/id/1416417320/photo/healthy-food-healthy-eating-background-salmon-fruit-vegetable-and-berry-superfood.jpg?s=612x612&w=0&k=20&c=m919a3bU3MLLc9B1arqd5BSAJ6jx08sconxGNJVUA9E=" alt="Healthy foods on a table">
+                <figcaption>Eating colorful fruits and vegetables helps strengthen your immune system.</figcaption>
+            </figure>
+            <p>Building a strong immune system doesn’t have to be complicated. Simple habits such as eating nutrient-rich foods, staying hydrated, and getting enough sleep can make a huge difference. Regular exercise and managing stress also play key roles in maintaining immunity.</p>
+        </article>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>How much water should I drink daily?</summary>
+                <p>Most experts recommend about 8 glasses (2 liters) of water a day, though individual needs vary depending on activity level and climate.</p>
+            </details>
+            <details>
+                <summary>What foods boost energy naturally?</summary>
+                <p>Whole grains, nuts, fruits, and leafy greens help sustain energy throughout the day without the crash from sugary snacks.</p>
+            </details>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Quick Health Tips</h3>
+        <ul>
+            <li>Take a 10-minute walk after meals.</li>
+            <li>Replace sugary drinks with herbal tea.</li>
+            <li>Stretch for 5 minutes every morning.</li>
+            <li>Sleep at least 7 hours each night.</li>
+        </ul>
+
+        <h3>Related Links</h3>
+        <ul>
+            
+          <li><a href="https://medlineplus.gov/recipes/">Healthy Recipes</a></li>
+            <li><a href="https://www.planetfitness.com/blog/articles/beginner-workout-plan-your-first-week-gym">Fitness Routines</a></li>
+            <li><a href="https://www.rexulti.com/mdd/depression-partial-response?tc=ps_c56p36682c&cc=1009&utm_medium=cpc&utm_campaign=GS_ubtob-mdd-info&utm_term=coping+mechanisms+for+depression&gclsrc=aw.ds&&gclid=Cj0KCQjwgpzIBhCOARIsABZm7vFs0OHrdA-nBKs-iqF6UsO0Z2oBAnItcba8K-zA9ViFE7MVmGAyabEaAuIQEALw_wcB&gad_source=1&gad_campaignid=21497033180&gbraid=0AAAAADjaej9PdKpbQYWt7RUsxYbtp54cn">Mindfulness Practices</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Wellness Weekly | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    </footer>
+</body>
+</html>
