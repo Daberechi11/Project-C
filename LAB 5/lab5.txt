@@ -1,0 +1,3 @@
+This is the C++ file handling lab.
+We are writing into a file using C++.
+We will perform several file handling operations.
